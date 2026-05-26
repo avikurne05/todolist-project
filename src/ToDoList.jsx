@@ -43,6 +43,9 @@ function ToDoList(){
 
                 </button>
             </div>
+            <div className="task-count">
+                Total Tasks: {tasks.length}
+            </div>
 
             <ol>
                 {tasks.map((task, index) => (
